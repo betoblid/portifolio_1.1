@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="portifolio front-end programador e web designer preciso de um site só acionar">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HS-Company</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!--secao topo onde ficara os links para navegação e o nome da empresa-->
+    <div class="alerta">
+        <p><img src="img/problema.png" alt="">Site em desenvolvimento. Colocaremos algumas coisas como formularios e uma comunidade.</p>
+    </div>
+    <header class="punchline">
+        <h1>HS</h1>
+        <div class="container-links">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projeto">Projetos</a>
+                <a href="#conhecimentos">Tecnologia</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <section id="carrosel" class="titulo">
+            <!--essa secao ficara imagens passando no conteiner section onde vou editar umas imagens para por no slider - carreteu-->
+         <div class="containe-slider">
+                <button id="prev-button" ><img src="img/arrow.png" alt="" > </button>
+        
+                <div class="containe-img" id="img">
+        
+                    <img src="img/portifolio.jpeg" alt="" class="slider on">
+                    <img src="img/Captura da Web_27-4-2023_185356_alfatech-hospedagem-web.vercel.app.jpeg" alt="" class="slider">
+                    <img src="img/Captura da Web_27-4-2023_185439_cafeteria-manhattan-chi.vercel.app.jpeg" alt="" class="slider">
+                    <img src="img/Captura da Web_27-4-2023_185522_hotel-pousada-secreta.vercel.app.jpeg" alt="" class="slider">
+                    <img src="img/Captura da Web_27-4-2023_185832_localhost.jpeg" alt="" class="slider">
+                    <img src="img/Captura da Web_2-5-2023_162820_.jpeg " alt="" class="slider">
+        
+                </div>
+                <button id="next-button"><img src="img/arrow.png" alt="" ></button>
+            </div>
+     
+        </section>
+        <div class="fundo">
+            <h1>SOBRE MIM</h1>
+        </div>
+        <section id="sobre" class="punchline">
+            <!--sobre basicamente sobre a empre ou o fundador dela ou seja eu-->
+            <div class="container-sobre">
+                <div class="box-sobre">
+                    <img src="img-sobre.jpeg" alt="">
+                   <div class="box-text">
+                        <h1>QUEM SOU EU</h1>
+                        <p>Sobre este programador: Me chamo Herbert Souza e sou uma pessoa que ama tecnologia. Atualmente estou estudando JAVASCRIPT, PHP e MYSQL para me tornar um programador full-stack. Gosto de animes e filmes de comédia, em tempos livres costumo assistir e criar alguns projetos. Atualmente trabalhando em freelancer e aceito propostas. Possuo conhecimentos em sites estáticos e dinâmicos.</p>
+                        <p>Sou uma pessoa pontual, Ágil, Dedicado e Flexível. Se você está procurando alguém que tenha capacidade de criar o site dos seus sonhos, visite nossos projetos e se for de seu agrado mande seu projeto por E-mail ou Linkedin e entre em contato.</p>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <div class="fundo">
+            <h1>PROJETOS</h1>
+        </div>
+        <section id="projeto" class="punchline">
+            
+            <div class="number">
+                <ul type="none">
+                    <li>
+                        <h4>12</h4>
+                        <p>projetos</p>
+                    </li>
+                    <li>
+                        <h4>100%</h4>
+                        <p>funcional</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-projeto">
+                <!--seção projetos onde ficara os boxs de projetos com uma imagem nome do projeto e sobre ele-->
+                <div class="box-projeto">
+                    <img src="img/Captura da Web_27-4-2023_185356_alfatech-hospedagem-web.vercel.app.jpeg" alt="">
+                    <div class="text">
+                        <h4>Site de Hospedagem de Sites</h4>
+                        <p>Uma loja de Hospedagem de Sites Web, usando display flex, Web designer responsivo.</p>
+                   
+                        <nav class="textlink">
+                            <a href="https://github.com/betoblid/Web-site-Hospedagem-de-Web" target="_blank">sobre</a>
+                            <a href="https://alfatech-hospedagem-web.vercel.app/" target="_blank">projetos</a>
+                        </nav>
+                     </div> 
+
+                </div>
+
+                <div class="box-projeto">
+                    <img src="img/Captura da Web_27-4-2023_185439_cafeteria-manhattan-chi.vercel.app.jpeg" alt="">
+                    <div class="text">
+                        <h4>Landing Page Cafeteria</h4>
+                        <p>Site para falar um pouco da cafeteria e falar sobre a importância do café. Web designer responsivo.</p>
+                        <nav class="textlink">
+                            <a href="https://github.com/betoblid/cafeteria-Manhattan" target="_blank">sobre</a>
+                            <a href="https://cafeteria-manhattan-chi.vercel.app/" target="_blank">projetos</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="box-projeto">
+                    <img src="img/Captura da Web_27-4-2023_185522_hotel-pousada-secreta.vercel.app.jpeg" alt="">
+                    <div class="text">
+                        <h4>Site de um Hotel</h4>
+                        <p>Site para representar uma Hospedagem com agendamento por Whatsapp, web designer responsivo com formulário para agendamento. </p>
+                        <nav class="textlink">
+                            <a href="https://github.com/betoblid/HOTEL-SEM-FORMULARIO" target="_blank">Sobre</a>
+                            <a href="https://hotel-pousada-secreta.vercel.app/" target="_blank">Projetos</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="box-projeto block"> 
+                    <img src="img/Captura da Web_27-4-2023_185832_localhost.jpeg" alt="">
+                    <div class="text">
+                        <h4>Site Sorveteria</h4>
+                        <p>Site de uma Sorveteria com demonstração de produtos, web designer responsivo, compra pelo whatsapp, uso de SAPS paginas pré carregadas e formulários para agendamentos. </p>
+                        <nav class="textlink">
+                            <a href="https://github.com/betoblid/SORVETERIA">Sobre</a>
+                            <a href="#projeto">Projetos</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="fundo">
+            <h1>CERTIFICADOS</h1>
+        </div>
+        <section id="formaçao" class="punchline">
+            
+            <!--onde ficara quais cursos eu fir e se comcluir ou não-->
+            <div class="container-certificado">
+                <!--sera de overflow para x onde ficara 100vh mostrando o conteudo-->
+                <div class="box-certificado">
+                    <img src="img/logo.facu.png" alt="">
+                    <h2>Faculdade Sumaré</h2>
+                    <h3>Analise desenvolvido de sistema <span class="vermelho">Cursando</span></h3>
+                </div>
+                <div class="box-certificado">
+                    <img src="img/logo.dev.png" alt="">
+                    <h2>Dev-Media</h2>
+                    <h3>Desenvolvedor Front-End e MOBILE <span class="vermelho">Cursando</span></h3>
+                </div>
+                <dev class="box-certificado">
+                    <img src="img/bradescorosa.png" alt="">
+                    <h2>Fundação Bradesco</h2>
+                    <h3>Fundamentos de Front-End. HTML, CSS, JAVASCRIPT, PYTHON <span>Concluído</span></h3>
+                </dev>
+
+                <dev class="box-certificado">
+                   <img src="img/bradescorosa.png" alt="">
+                    <h2>Fundação Bradesco</h2>
+                    <h3>CSS Animação <span>Concluído</span></h3>
+                </dev>
+                <dev class="box-certificado">
+                    <img src="img/rockt.png" alt="">
+                    <h2>Rocktsent</h2>
+                    <h3>front-end basico <span>Concluído</span></h3>
+                </dev>
+                <dev class="box-certificado">
+                    <img src="img/rockt.png" alt="">
+                    <h2>Rocktsent</h2>
+                    <h3>front-end intermediário com Css,Html, React, Javascript, Mysql<span class="vermelho">Cursando</span></h3>
+                </dev>
+                <dev class="box-certificado">
+                    <img src="img/rockt.png" alt="">
+                    <h2>Rocktsent</h2>
+                    <h3>front-end avançado com Css , Html, React, Javascript, Mysql<span class="vermelho">Cursando</span></h3>
+                </dev>
+            </div>
+        </section>
+        <div class="fundo">
+            <h1>TECNOLOGIAS</h1>
+        </div>
+        <section id="conhecimentos" class="punchline">
+            <div class="container-conhecimentos">
+                <div class="box-conhecimentos">
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/html/herbert-souza-1" target="_blank"><img src="img/html.png" alt=""></a>
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/css/herbert-souza-1" target="_blank"><img src="img/css.png" alt=""></a>
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/herbert-souza-1" target="_blank"><img src="img/js.png" alt=""></a>
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/react/herbert-souza-1" target="_blank"><img src="img/react.png" alt=""></a>
+                    <a href=""><img src="img/git.png" alt=""></a>
+                    <a href=""><img src="img/github.png" alt=""></a>
+                    <a href="img/boostrapp.png"><img src="img/boostrapp.png" alt=""></a>
+                    <a href=""><img src="img/python.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="punchline">
+       <section id="contato"> 
+        <div class="container-contato">
+            
+            <ul type="none" class="contat">
+                <li>
+                    <h1>HS</h1>
+                </li>
+                <li><h4>Contato</h4>
+                <a href="https://www.linkedin.com/in/herbert-souza-220268268/" target="_blank">Linkedin</a>
+                <a href="https://github.com/betoblid " target="_blank">Github</a>
+                <a href="mailto: freelasbeto@gmail.com" target="_blank">freelasbeto@gmail.com</a>
+                </li>
+                <li><h4>Sites</h4>
+                    <a href="https://www.99freelas.com.br/user/Beto-Freela" target="_blank">99freelas</a>
+                    <a href="https://www.freelancer.com/u/freelasbeto" target="_blank">freelas</a>
+                </li>
+            </ul>
+        </div>
+       </section>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/herbert-souza-220268268/" target="_blank">'Herbert'</a></p>
+        <h6>&copy;Direitos autorais - HS-Company</h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
